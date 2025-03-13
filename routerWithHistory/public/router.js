@@ -65,7 +65,7 @@ window.addEventListener("load", () => {
     path = path.replace('/routerWithHistory/index.html','');
   };
 
-  console.log("path", path);
+  console.log("path456", path);
   setCustomPathname(path);
   if(!path || path === '/'){
     path = '/home';

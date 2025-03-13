@@ -42,6 +42,11 @@ const server = http.createServer((req, res) => {
   if (requestedUrl.startsWith("/user")) {
     filePath = path.join(__dirname, "public", "index.html");
     return serveFile(filePath, "text/html", res);
+  };
+
+  if(requestedUrl == '/contact' || requestedUrl == '/home' || requestedUrl == '/about'){
+    filePath = path.join(__dirname, "public", "index.html");
+    return serveFile(filePath, "text/html", res);
   }
 
   // If nothing matches, return 404
