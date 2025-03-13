@@ -1,0 +1,12 @@
+{
+  "name": "routerwithhistory",
+  "version": "1.0.0",
+  "description": "A simple client-side router for a Single Page Application (SPA) built with JavaScript. It supports hash-based routing, dynamic routes, 404 handling, and browser history management.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
